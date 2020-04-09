@@ -20,6 +20,7 @@ public class Supermarket extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+        FilesHandler.init();
         mainstage = stage;
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
 
