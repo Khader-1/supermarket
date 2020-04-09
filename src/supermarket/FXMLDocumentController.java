@@ -19,7 +19,7 @@ public class FXMLDocumentController implements Initializable {
     private void handleButtonAction(ActionEvent event) throws IOException {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
-        new StageHandle().changeView("FXMLDocument_1");
+        new StageHandle().cahngeWindow("FXMLDocument_1");
     }
 
     @Override
